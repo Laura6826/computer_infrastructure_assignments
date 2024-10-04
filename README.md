@@ -49,7 +49,7 @@ In order to run the included files, you will need to ensure that you have access
 1. [Anaconda](https://www.atu.ie/sites/default/files/2024-02/aqae022-academic-integrity-policy-1.pdf) (if Anaconda is too large, miniconda would also suffice).
 2. [Visual Studio Code](https://code.visualstudio.com/Download) (this is a code editor).
 
-If installing packages is not an option, you can use the following clickable 'badge', generated in [openincolab.com](https://openincolab.com/) to access the Juypter notebook 'penguins.ipynb', associated with the project.
+If installing packages is not an option, you can use the following clickable 'badge', generated in [openincolab.com](https://openincolab.com/) to access -------------------, associated with the project.
 <a target="_blank" href="https://colab.research.google.com/github/Laura6826/PofDA-mywork/blob/d15060d2db8740b10fe977c72a09c26edc6bd071/penguins.ipynb">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
