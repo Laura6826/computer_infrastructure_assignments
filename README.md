@@ -20,14 +20,26 @@ This README file was written using the [GitHub's documentation on READMEs](https
 1. [How to get started.](#how-to-get-started)
 1. [How to get help.](#5-how-to-get-help)
 1. [How to contribute.](#6-how-to-contribute)
+1. [Weekly Tasks.](#6-weekly-tasks)
+
+    1. [Task 01- Create Directory Structure](#)
+    2. [Task 02- Timestamps](#)
+    3. [Task 03- Formatting Timestamps](#)
+    4. [Task 04- Creating Timestamped Files](#)
+    5. [Task 05- Download Today;s Weather Data](#)
+    6. [Task 06- Timestamp the Data](#)
+    7. [Task 07- Write the Script](#)
+    8. [Task 08- Notebook](#)
 
 ## <span style="color:orange ">1. Introduction <span>
 
 This project was created to fufill an assessment requirement of Computer Infrastructure 24-25: 8645, as part of the H.Dip in Science in Data Analytics.
 
-The aim of this project is to demonstrate the knowledge to both research and analyis --------------------- using both instruction provided in the lectures, data analysis complete by previous analyists and also based on my own research.
+Each week, following a series of lectures, a task was assigned, to demonstrate both learning and additional reading/research on the topics discussed in the lectures.
 
-The core componments of this assessment is to:
+This repository is collection of my weekly tasks, including some additional guidance and instruction in how to run each task/program.
+
+***
 
 ## <span style="color:orange ">2. The purpose of this project <span>
 
@@ -95,4 +107,140 @@ Additionally, a number of links are embedded within the code, in areas that i fo
 ## <span style="color:orange "> 6. How to contribute <span>
 
 As this project was created to fufill an assessment requirement of the Principles of Data Analytics, as part of the H.Dip in Science in Data Analytics, no contributions will be allowed, in order to comply with ATU Policy on [Plagiarism](https://www.atu.ie/sites/default/files/2024-02/aqae022-academic-integrity-policy-1.pdf) and the [Student Code of Conduct](https://www.atu.ie/sites/default/files/2022-08/Student%20Code_Final_August_2022.pdf).
+
+Should you find any errors or have any recommendations , please submit a pull request on Github. or just wish to contact that author, you can do so at <maxwell6826@gmail.com>.
+
+***
+
+## **5. Weekly Tasks**
+
+## **Task 01** - Create Directory Structure
+
+**Assignment Instructions:**
+
+Using the command line, create a directory (that is, a folder) named data at the root of your repository. Inside data, create two subdirectories: timestamps and weather.
+
+**My notes:**
+
+**When run:**
+
+**Associated Code:**
+
+```ruby
+print("Hello World!")
+```
+
+***
+
+## **Task 02** - Timestamps
+
+**Assignment Instructions:**
+
+**My notes:**
+
+**When run:**
+
+**Associated Code:**
+
+```ruby
+
+```
+
+***
+
+## **Task 03** - Formatting Timestamps
+
+**Assignment Instructions:**\
+
+**My notes:**
+
+**When run:**
+  
+**Associated Code:**
+
+```ruby
+
+```
+
+***
+
+## **Task 04** - Creating Timestamped Files
+
+**Assignment Instructions:**\
+
+**My notes:**
+
+**When run:**
+  
+**Associated Code:**
+
+```ruby
+
+```
+
+***
+
+## **Task 05** - weekday.py
+
+**Assignment Instructions:**\
+
+**My notes:**
+
+**When run:**
+
+**Associated Code:**
+
+```ruby
+
+```
+
+***
+
+## **Task 06** - Timestamp the Data
+
+**Assignment Instructions:**\
+
+**My notes:**\
+
+
+```ruby
+
+```
+
+**When run:**
+
+**Associated Code:**
+
+***
+
+## **Task 07** - Write the Script
+
+**Assignment Instructions:**
+
+**My notes:**
+
+**When run:**
+
+**Associated Code:**
+
+```ruby
+  
+```
+
+***
+
+## **Task 08** - Notebook
+
+**Assignment Instructions:**\
+
+**My notes:**\
+
+**Associated Code:**
+
+```ruby
+
+```
+
+***
+### End
 
