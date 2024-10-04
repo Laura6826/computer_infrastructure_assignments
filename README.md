@@ -35,10 +35,10 @@ As noted on the [assignment instructions](),
 
 The purpose of the assessment is to ensure students can demonstrate the following:
 
-1. 
-1. 
-1. 
-1. 
+1. Use, configure, and script in a command line interface environment.
+1. Manipulate and move data and code using the command line.
+1. Compare commonly available software infrastructures and architectures.
+1. Select appropriate infrastructure for a given computational task.
 
 ## <span style="color:orange ">3. How to get started <span>
 
