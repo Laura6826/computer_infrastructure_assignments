@@ -20,7 +20,7 @@ This README file was written using the [GitHub's documentation on READMEs](https
 1. [How to get started.](#3-how-to-get-started)
 1. [How to get help.](#4-how-to-get-help)
 1. [How to contribute.](#5-how-to-contribute)
-1. [Weekly Tasks.](#5-how-to-contribute)
+1. [Weekly Tasks.](#6-weekly-tasks)
 
     1. [Task 01- Create Directory Structure](#task-01---create-directory-structure)
     2. [Task 02- Timestamps](#task-02---timestamps)
