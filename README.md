@@ -78,7 +78,7 @@ For a seamless excutition, I would also recommend you have access to the below l
 
 **Additions to** *.gitignore*
 
-A number of [additional files](https://github.com/github/gitignore/tree/main/Global) were added to my .gitignore prior to running the programmes:
+A number of [additional files](https://github.com/github/gitignore/tree/main/Global) were added to my *.gitignore* prior to running the programmes:
 
   1. python.gitignore
   2. macOS..gitignore
