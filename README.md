@@ -201,13 +201,7 @@ Task 08 can be viewed in[weather.ipynb](C:\Users\Laura\OneDrive\ATU_DA\24-25\com
 
 In your weather.ipynb notebook, use the pandas function read_json() to load in any one of the weather data files you have downloaded with your script. Examine and summarize the data. Use the information provided data.gov.ie to write a short explanation of what the data set contains.
 
-**My notes:**
-
-**Associated Code:**
-
-```ruby
-
-```
+Task 09 can be viewed in[weather.ipynb](C:\Users\Laura\OneDrive\ATU_DA\24-25\computer_infrastructure_assignments\weather.ipynb)
 
 ***
 
