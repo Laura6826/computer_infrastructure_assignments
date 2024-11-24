@@ -5,6 +5,9 @@ on:
     - cron: '0 10 * * *'  # This runs the workflow every day at 10 AM UTC
   workflow_dispatch:
 
+permissions:
+  contents: write # Grant write permissions to push changes
+  
 jobs:
   daily_task:
     runs-on: ubuntu-latest  # Use the latest Ubuntu environment
