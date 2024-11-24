@@ -62,8 +62,6 @@ In order to run the included files, you will need to ensure that you have access
 1. [Anaconda](https://www.atu.ie/sites/default/files/2024-02/aqae022-academic-integrity-policy-1.pdf) (if Anaconda is too large, miniconda would also suffice).
 2. [Visual Studio Code](https://code.visualstudio.com/Download) (this is a code editor).
 
-If installing packages is not an option, you can use the following clickable 'badge', generated in [openincolab.com](https://openincolab.com/) to access -------------------, associated with the project.
-
 Recommended libraries
 
 For a seamless excutition, I would also recommend you have access to the below libraries prior to running the files:
