@@ -62,8 +62,6 @@ In order to run the included files, you will need to ensure that you have access
 1. [Anaconda](https://www.atu.ie/sites/default/files/2024-02/aqae022-academic-integrity-policy-1.pdf) (if Anaconda is too large, miniconda would also suffice).
 2. [Visual Studio Code](https://code.visualstudio.com/Download) (this is a code editor).
 
-If installing packages is not an option, you can use the following clickable 'badge', generated in [openincolab.com](https://openincolab.com/) to access -------------------, associated with the project.
-
 Recommended libraries
 
 For a seamless excutition, I would also recommend you have access to the below libraries prior to running the files:
@@ -199,17 +197,11 @@ Task 08 can be viewed in[weather.ipynb](C:\Users\Laura\OneDrive\ATU_DA\24-25\com
 
 ## **Task 09** - Pandas
 
-### **Assignment Instructions: 09**\
+### **Assignment Instructions: 09**
 
 In your weather.ipynb notebook, use the pandas function read_json() to load in any one of the weather data files you have downloaded with your script. Examine and summarize the data. Use the information provided data.gov.ie to write a short explanation of what the data set contains.
 
-**My notes:**\
-
-**Associated Code:**
-
-```ruby
-
-```
+Task 09 can be viewed in[weather.ipynb](C:\Users\Laura\OneDrive\ATU_DA\24-25\computer_infrastructure_assignments\weather.ipynb)
 
 ***
 
