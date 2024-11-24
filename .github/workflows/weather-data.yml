@@ -3,9 +3,7 @@ name: Daily Python Script Execution
 on:
   schedule:
     - cron: '0 10 * * *'  # This runs the workflow every day at 10 AM UTC
-  push:
-    branches:
-      - main  # This triggers the workflow if changes are pushed to the 'main' branch (adjust if needed)
+  workflow_dispatch:
 
 jobs:
   daily_task:
