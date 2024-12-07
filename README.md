@@ -53,6 +53,8 @@ The purpose of the assessment is to ensure students can demonstrate the followin
 1. Compare commonly available software infrastructures and architectures.
 1. Select appropriate infrastructure for a given computational task.
 
+***
+
 ## 3. How to get started
 
 Necessary software
@@ -62,17 +64,9 @@ In order to run the included files, you will need to ensure that you have access
 1. [Anaconda](https://www.atu.ie/sites/default/files/2024-02/aqae022-academic-integrity-policy-1.pdf) (if Anaconda is too large, miniconda would also suffice).
 2. [Visual Studio Code](https://code.visualstudio.com/Download) (this is a code editor).
 
-Recommended libraries
+***
 
-For a seamless excutition, I would also recommend you have access to the below libraries prior to running the files:
 
-```ruby
-  import pandas as pd
-  import numpy as np
-  import matplotlib.pyplot as plt
-  import seaborn as sns
-  import scipy
-```
 
 **Additions to** *.gitignore*
 
@@ -85,6 +79,63 @@ A number of [additional files](https://github.com/github/gitignore/tree/main/Glo
   5. TeX.gitignore
   6. Vim.gitignore
   7. Windows.gitignore
+
+***
+
+## How to run the Notebook
+
+### Using Using Visual Studio Code & Anaconda or GitHub Codespaces
+
+1. **Clone the Repository**:
+
+```ruby
+   git clone https://github.com/Laura6826/computer_infrastructure_assignments.git
+   cd your-repository
+```
+
+2. **Install the required packages**:
+
+For a seamless excutition, I would also recommend you have access to the below libraries prior to running the files. The libraries required to run this file (as noted below), can be installed with the following code (as detailed under ):
+
+```ruby
+pip install -r requirements.txt
+```
+
+, or you can manually install each of the libraries below.+
+
+```ruby
+  import pandas as pd
+  import numpy as np
+  import matplotlib.pyplot as plt
+  import seaborn as sns
+  import scipy
+```
+
+***
+
+### Open the notebook in Visual Studio Code
+
+- Open Visual Studio Code.
+- Open the `computer_infrastructure_assignments` folder.
+- Open the `weather.ipynb` file.
+
+OR
+
+## Open the repository in Github Codespaces,
+
+- Navigate to your repository on GitHub.
+- Click on the `Code` button and select `Open with Codespaces`.
+- If you don't have a Codespace set up, create a new one.
+- Open a terminal in the Codespace.
+- Run the following command.
+
+```ruby
+pip install -r requirements.txt
+```
+
+- Open the `weather.ipynb` file.
+
+***
 
 ## 4. How to get help
 
@@ -114,7 +165,7 @@ This is a brief description of the tasks that were to be completed as part of th
 
 - Task01- Task07 were complete to demonstrate our ability ot navigate in terminal format.
 - Task08 contains a brief report explaining how you completed Tasks 1 to 7.
-- Task09 expanded on what we had previously learned, and 
+- Task09 expanded on what we had previously learned.
 
 ## **Task 01** - Create Directory Structure
 
