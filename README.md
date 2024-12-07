@@ -88,7 +88,7 @@ A number of [additional files](https://github.com/github/gitignore/tree/main/Glo
 
 2. **Install the required packages**:
 
-For a seamless excutition, I would also recommend you have access to the below libraries prior to running the files. The libraries required to run this file (as noted below), can be installed with the following code (as detailed under ):
+For a seamless excutition, I would also recommend you have access to the below libraries prior to running the files. The libraries required to run this file (as noted below), can be installed with the following code:
 
 ```ruby
 pip install -r requirements.txt
