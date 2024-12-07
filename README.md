@@ -1,4 +1,4 @@
-# computer_infrastructure_assignments
+# Computer Infrastructure Assignments,24-25: 8645
 
 ## Assignments submitted as part of the module Computer Infrastructure 24-25: 8645, Higher Diploma in Science, Data Analytics
 
@@ -57,16 +57,12 @@ The purpose of the assessment is to ensure students can demonstrate the followin
 
 ## 3. How to get started
 
-Necessary software
+### Necessary software
 
 In order to run the included files, you will need to ensure that you have access to the correct softwear. I would recommend downloading the following applications (ensuring sufficent space on your hard drive prior to installation):
 
 1. [Anaconda](https://www.atu.ie/sites/default/files/2024-02/aqae022-academic-integrity-policy-1.pdf) (if Anaconda is too large, miniconda would also suffice).
 2. [Visual Studio Code](https://code.visualstudio.com/Download) (this is a code editor).
-
-***
-
-
 
 **Additions to** *.gitignore*
 
@@ -80,8 +76,6 @@ A number of [additional files](https://github.com/github/gitignore/tree/main/Glo
   6. Vim.gitignore
   7. Windows.gitignore
 
-***
-
 ## How to run the Notebook
 
 ### Using Using Visual Studio Code & Anaconda or GitHub Codespaces
@@ -90,7 +84,6 @@ A number of [additional files](https://github.com/github/gitignore/tree/main/Glo
 
 ```ruby
    git clone https://github.com/Laura6826/computer_infrastructure_assignments.git
-   cd your-repository
 ```
 
 2. **Install the required packages**:
@@ -101,7 +94,7 @@ For a seamless excutition, I would also recommend you have access to the below l
 pip install -r requirements.txt
 ```
 
-, or you can manually install each of the libraries below.+
+,or you can manually install each of the libraries below.+
 
 ```ruby
   import pandas as pd
@@ -153,7 +146,7 @@ Additionally, a number of links are embedded within the code, in areas that i fo
 
 ## 5. How to contribute
 
-As this project was created to fufill an assessment requirement of the Principles of Data Analytics, as part of the H.Dip in Science in Data Analytics, no contributions will be allowed, in order to comply with ATU Policy on [Plagiarism](https://www.atu.ie/sites/default/files/2024-02/aqae022-academic-integrity-policy-1.pdf) and the [Student Code of Conduct](https://www.atu.ie/sites/default/files/2022-08/Student%20Code_Final_August_2022.pdf).
+As this project was created to fufill an assessment requirement of the module Computer Infrastructure 24-25, as part of the H.Dip in Science in Data Analytics, no contributions will be allowed, in order to comply with ATU Policy on [Plagiarism](https://www.atu.ie/sites/default/files/2024-02/aqae022-academic-integrity-policy-1.pdf) and the [Student Code of Conduct](https://www.atu.ie/sites/default/files/2022-08/Student%20Code_Final_August_2022.pdf).
 
 Should you find any errors or have any recommendations , please submit a pull request on Github. or just wish to contact that author, you can do so at <maxwell6826@gmail.com>.
 
