@@ -253,7 +253,7 @@ Task 09 can be viewed in [weather.ipynb](C:\Users\Laura\OneDrive\ATU_DA\24-25\co
 
 ### **Project Instructions**
 
-In this project, you will automate your weather.sh script to run daily and push the new data to your repository. 
+In this project, you will automate your weather.sh script to run daily and push the new data to your repository.
 
 1. *Create a GitHub Actions Workflow: In your repository, create a folder called .github/workflows/ (if it doesn't already exist). Inside this folder, create a file called weather-data.yml. This file will define the GitHub Actions workflow.*
 
@@ -264,21 +264,21 @@ or directly on Visual Studio Code.
 
 ![Creating new folders using VS Code](images\project3.JPG)
 
-2. *Run Daily at 10am: Use the schedule event with 'cron' to set the script to run once a day at 10am. Include also the workflow_dispatch event so you can test the workflow.*
+1. *Run Daily at 10am: Use the schedule event with 'cron' to set the script to run once a day at 10am. Include also the workflow_dispatch event so you can test the workflow.*
 
-- Originally, weather_data.yml, was created within `.github\workflows` to run the script `weather.py` at 10am (originally called `project.py`).
+  - Originally, weather_data.yml, was created within `.github\workflows` to run the script `weather.py` at 10am (originally called `project.py`).
 ![prject.py](images\project4.JPG)
 
-- Once the bash script was complete; we needed to modify to ensure that it could be run by the user.
+  - Once the bash script was complete; we needed to modify to ensure that it could be run by the user.
 
-```ruby
-chmod u+x ./weather.sh
-```
+  ```ruby
+  chmod u+x ./weather.sh
+  ```
 
-3. *Use a Linux Virtual Machine In the workflow file, specify that a Ubuntu virtual machine should be used to run the action.*
-4. *Clone the Repository Have the workflow clone your repository.*
-5. *Execute the weather.sh Script Add a step that runs your weather.sh script.*
-6. *Commit and Push Changes Back to the Repository Finally, configure the workflow to commit the new weather data and push those changes back to your repository.*
+1. *Use a Linux Virtual Machine In the workflow file, specify that a Ubuntu virtual machine should be used to run the action.*
+1. *Clone the Repository Have the workflow clone your repository.*
+1. *Execute the weather.sh Script Add a step that runs your weather.sh script.*
+1. *Commit and Push Changes Back to the Repository Finally, configure the workflow to commit the new weather data and push those changes back to your repository.*
 
 -The [following script](.github\workflows\weatherdata.yml) was used to satisfy the above requirements.
 ![weather.py](images\project4.JPG)
@@ -287,7 +287,7 @@ chmod u+x ./weather.sh
 
 - The script was initially run manually to ensure that it ran correctly, and then it was allowed to run away, at 10am each day.
 
-**Updates/ Improvements**
+#### **Updates/ Improvements**
 
 ***
 
