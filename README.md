@@ -267,8 +267,7 @@ or directly on Visual Studio Code.
 1. *Run Daily at 10am: Use the schedule event with 'cron' to set the script to run once a day at 10am. Include also the workflow_dispatch event so you can test the workflow.*
 
   - Originally, weather_data.yml, was created within `.github\workflows` to run the script `weather.py` at 10am (originally called `project.py`).
-![prject.py](https://github.com/Laura6826/computer_infrastructure_assignments/blob/main/images/project1.jpg
-)
+![project.py](https://github.com/Laura6826/computer_infrastructure_assignments/blob/main/images/project1.jpg)
 
   - Once the bash script was complete; we needed to modify to ensure that it could be run by the user.
 
@@ -282,7 +281,7 @@ or directly on Visual Studio Code.
 1. *Commit and Push Changes Back to the Repository Finally, configure the workflow to commit the new weather data and push those changes back to your repository.*
 
 -The [following script](.github\workflows\weatherdata.yml) was used to satisfy the above requirements.
-![weather.py](images\project4.JPG)
+![weather.py](https://github.com/Laura6826/computer_infrastructure_assignments/blob/main/images/project4.JPG)
 
 7. Test the Workflow Commit and push the workflow to your repository. Check the logs in GitHub to ensure that the weather.sh script runs correctly, that new data is being committed.
 
