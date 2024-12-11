@@ -26,7 +26,7 @@ This README file was written using the [GitHub's documentation on READMEs](https
     2. [Task 02- Timestamps](#task-02---timestamps)
     3. [Task 03- Formatting Timestamps](#task-03---formatting-timestamps)
     4. [Task 04- Creating Timestamped Files](#task-04---creating-timestamped-files)
-    5. [Task 05- Download Today;s Weather Data](#task-05---download-todays-weather-data)
+    5. [Task 05- Download Todays Weather Data](#task-05---download-todays-weather-data)
     6. [Task 06- Timestamp the Data](#task-06---timestamp-the-data)
     7. [Task 07- Write the Script](#task-07---write-the-script)
     8. [Task 08- Notebook](#task-08---notebook)
@@ -34,7 +34,7 @@ This README file was written using the [GitHub's documentation on READMEs](https
 
 ## 1. Introduction
 
-This project was created to fufill an assessment requirement of Computer Infrastructure 24-25: 8645, as part of the H.Dip in Science in Data Analytics.
+This project was created to fuLfill an assessment requirement of Computer Infrastructure 24-25: 8645, as part of the H.Dip in Science in Data Analytics.
 
 Each week, following a series of lectures, a task was assigned, to demonstrate both learning and additional reading/research on the topics discussed in the lectures.
 
