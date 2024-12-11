@@ -59,9 +59,9 @@ The purpose of the assessment is to ensure students can demonstrate the followin
 
 ### Necessary software
 
-In order to run the included files, you will need to ensure that you have access to the correct softwear. I would recommend downloading the following applications (ensuring sufficent space on your hard drive prior to installation):
+In order to run the included files, you will need to ensure that you have access to the correct software. I would recommend downloading the following applications (ensuring sufficient space on your hard drive prior to installation):
 
-1. [Anaconda](https://www.atu.ie/sites/default/files/2024-02/aqae022-academic-integrity-policy-1.pdf) (if Anaconda is too large, miniconda would also suffice).
+1. [Anaconda](https://www.atu.ie/sites/default/files/2024-02/aqae022-academic-integrity-policy-1.pdf) (if Anaconda is too large, mini-conda would also suffice).
 2. [Visual Studio Code](https://code.visualstudio.com/Download) (this is a code editor).
 
 **Additions to** *.gitignore*
@@ -78,7 +78,7 @@ A number of [additional files](https://github.com/github/gitignore/tree/main/Glo
 
 ## How to run the Notebook
 
-### Using Using Visual Studio Code & Anaconda or GitHub Codespaces
+### Using Visual Studio Code & Anaconda or GitHub Codespaces
 
 1. **Clone the Repository**:
 
@@ -88,7 +88,7 @@ A number of [additional files](https://github.com/github/gitignore/tree/main/Glo
 
 2. **Install the required packages**:
 
-For a seamless excutition, I would also recommend you have access to the below libraries prior to running the files. The libraries required to run this file (as noted below), can be installed with the following code:
+For a seamless execution, I would also recommend you have access to the below libraries prior to running the files. The libraries required to run this file (as noted below), can be installed with the following code:
 
 ```ruby
 pip install -r requirements.txt
@@ -132,7 +132,7 @@ pip install -r requirements.txt
 
 ## 4. How to get help
 
-I have attached below,a number of helpful links, should you wish to extrapolate on any of the methods used within this project.
+I have attached a number of helpful links below, should you wish to extrapolate on any of the methods used within this project.
 
 1. [Anaconda](https://www.atu.ie/sites/default/files/2024-02/aqae022-academic-integrity-policy-1.pdf)
 1. [Visual Studio Code](https://code.visualstudio.com/Download)
@@ -142,11 +142,11 @@ I have attached below,a number of helpful links, should you wish to extrapolate 
 1. [Matplotlib.py](https://matplotlib.org/)
 1. [Seaborn](https://seaborn.pydata.org/)
 
-Additionally, a number of links are embedded within the code, in areas that i found confussing/difficult, that should help should there be any difficulty.
+Additionally, a number of links are embedded within the code, in areas that i found confusing/difficult, that should help should there be any difficulty.
 
 ## 5. How to contribute
 
-As this project was created to fufill an assessment requirement of the module Computer Infrastructure 24-25, as part of the H.Dip in Science in Data Analytics, no contributions will be allowed, in order to comply with ATU Policy on [Plagiarism](https://www.atu.ie/sites/default/files/2024-02/aqae022-academic-integrity-policy-1.pdf) and the [Student Code of Conduct](https://www.atu.ie/sites/default/files/2022-08/Student%20Code_Final_August_2022.pdf).
+As this project was created to fulfill an assessment requirement of the module Computer Infrastructure 24-25, as part of the H.Dip in Science in Data Analytics, no contributions will be allowed, in order to comply with ATU Policy on [Plagiarism](https://www.atu.ie/sites/default/files/2024-02/aqae022-academic-integrity-policy-1.pdf) and the [Student Code of Conduct](https://www.atu.ie/sites/default/files/2022-08/Student%20Code_Final_August_2022.pdf).
 
 Should you find any errors or have any recommendations , please submit a pull request on Github. or just wish to contact that author, you can do so at <maxwell6826@gmail.com>.
 
@@ -156,7 +156,7 @@ Should you find any errors or have any recommendations , please submit a pull re
 
 This is a brief description of the tasks that were to be completed as part of the assessment for Computer Infrastructure 24-25: 8645.
 
-- Task01- Task07 were complete to demonstrate our ability ot navigate in terminal format.
+- Task01- Task07 were complete to demonstrate our ability to navigate in terminal format.
 - Task08 contains a brief report explaining how you completed Tasks 1 to 7.
 - Task09 expanded on what we had previously learned.
 
@@ -166,7 +166,7 @@ This is a brief description of the tasks that were to be completed as part of th
 
 Using the command line, create a directory (that is, a folder) named data at the root of your repository. Inside data, create two subdirectories: timestamps and weather.
 
-*Task 08 contains a brief report explaining how you completed Tasks 1 to 7.*
+*[Task 08](weather.ipynb) contains a brief report explaining how you completed Tasks 1 to 7.*
 
 ## **Task 02** - Timestamps
 
@@ -174,7 +174,7 @@ Using the command line, create a directory (that is, a folder) named data at the
 
 Navigate to the data/timestamps directory. Use the date command to output the current date and time, appending the output to a file named now.txt. Make sure to use the >> operator to append (not overwrite) the file. Repeat this step ten times, then use the more command to verify that now.txt has the expected content.
 
-*Task 08 contains a brief report explaining how you completed Tasks 1 to 7.*
+*[Task 08](weather.ipynb) contains a brief report explaining how you completed Tasks 1 to 7.*
 
 ***
 
@@ -184,7 +184,7 @@ Navigate to the data/timestamps directory. Use the date command to output the cu
 
 Run the date command again, but this time format the output using YYYYmmdd_HHMMSS (e.g., 20261114_130003 for 1:00:03 PM on November 14, 2026). Refer to the date man page (using man date) for more formatting options. (Press q to exit the man page). Append the formatted output to a file named formatted.txt.
 
-*Task 08 contains a brief report explaining how you completed Tasks 1 to 7.*
+*[Task 08](weather.ipynb) contains a brief report explaining how you completed Tasks 1 to 7.*
 
 ***
 
@@ -194,18 +194,18 @@ Run the date command again, but this time format the output using YYYYmmdd_HHMMS
 
 Use the touch command to create an empty file with a name in the YYYYmmdd_HHMMSS.txt format. You can achieve this by embedding your date command in backticks ` into the touch command. You should no longer use redirection (>>) in this step.
 
-*Task 08 contains a brief report explaining how you completed Tasks 1 to 7.*
+*[Task 08](weather.ipynb) contains a brief report explaining how you completed Tasks 1 to 7.*
 
 ***
 
-## **Task 05** - Download Today;s Weather Data
+## **Task 05** - Download Todays Weather Data
 
 ### **Assignment Instructions: 05**
 
 Change to the data/weather directory. Download the latest weather data for the Athenry weather station from Met Eireann using wget. Use the -O filename option to save the file as weather.json. The data can be found at this URL:
 <https://prodapi.metweb.ie/observations/athenry/today>.
 
-*Task 08 contains a brief report explaining how you completed Tasks 1 to 7.*
+*[Task 08](weather.ipynb) contains a brief report explaining how you completed Tasks 1 to 7.*
 
 ***
 
@@ -215,7 +215,7 @@ Change to the data/weather directory. Download the latest weather data for the A
 
 Modify the command from Task 5 to save the downloaded file with a timestamped name in the format YYYYmmdd_HHMMSS.json.
 
-*Task 08 contains a brief report explaining how you completed Tasks 1 to 7.*
+*[Task 08](weather.ipynb) contains a brief report explaining how you completed Tasks 1 to 7.*
 
 ***
 
@@ -225,7 +225,7 @@ Modify the command from Task 5 to save the downloaded file with a timestamped na
 
 Write a bash script called weather.sh in the root of your repository. This script should automate the process from Task 6, saving the weather data to the data/weather directory. Make the script executable and test it by running it.
 
-*Task 08 contains a brief report explaining how you completed Tasks 1 to 7.*`
+*[Task 08](weather.ipynb)Task 08 contains a brief report explaining how you completed Tasks 1 to 7.*
 
 ***
 
@@ -235,7 +235,7 @@ Write a bash script called weather.sh in the root of your repository. This scrip
 
 Create a notebook called weather.ipynb at the root of your repository. In this notebook, write a brief report explaining how you completed Tasks 1 to 7. Provide short descriptions of the commands used in each task and explain their role in completing the tasks.
 
-Task 08 can be viewed in[weather.ipynb](C:\Users\Laura\OneDrive\ATU_DA\24-25\computer_infrastructure_assignments\weather.ipynb)
+Task 08 can be viewed in [weather.ipynb](C:\Users\Laura\OneDrive\ATU_DA\24-25\computer_infrastructure_assignments\weather.ipynb)
 
 ***
 
@@ -245,7 +245,7 @@ Task 08 can be viewed in[weather.ipynb](C:\Users\Laura\OneDrive\ATU_DA\24-25\com
 
 In your weather.ipynb notebook, use the pandas function read_json() to load in any one of the weather data files you have downloaded with your script. Examine and summarize the data. Use the information provided data.gov.ie to write a short explanation of what the data set contains.
 
-Task 09 can be viewed in[weather.ipynb](C:\Users\Laura\OneDrive\ATU_DA\24-25\computer_infrastructure_assignments\weather.ipynb)
+Task 09 can be viewed in [weather.ipynb](C:\Users\Laura\OneDrive\ATU_DA\24-25\computer_infrastructure_assignments\weather.ipynb)
 
 ***
 
@@ -257,12 +257,14 @@ In this project, you will automate your weather.sh script to run daily and push 
 
 1. *Create a GitHub Actions Workflow: In your repository, create a folder called .github/workflows/ (if it doesn't already exist). Inside this folder, create a file called weather-data.yml. This file will define the GitHub Actions workflow.*
 
-This part of the task could be complete in GitHub Codespaces using the terminal, 
+This part of the task could be complete in GitHub Codespaces using the terminal,
+
 ![Creating new folders on GitHub Codespaces](images\project2.JPG)
 or directly on Visual Studio Code.
+
 ![Creating new folders using VS Code](images\project3.JPG)
 
-2. *Run Daily at 10am: Use the schedule event with cron to set the script to run once a day at 10am. Include also the workflow_dispatch event so you can test the workflow.*
+2. *Run Daily at 10am: Use the schedule event with 'cron' to set the script to run once a day at 10am. Include also the workflow_dispatch event so you can test the workflow.*
 
 - Originally, weather_data.yml, was created within `.github\workflows` to run the script `weather.py` at 10am (originally called `project.py`).
 ![prject.py](images\project4.JPG)
@@ -278,25 +280,25 @@ chmod u+x ./weather.sh
 5. *Execute the weather.sh Script Add a step that runs your weather.sh script.*
 6. *Commit and Push Changes Back to the Repository Finally, configure the workflow to commit the new weather data and push those changes back to your repository.*
 
--The [following script](.github\workflows\weatherdata.yml) was used to satisify the above requirements.
+-The [following script](.github\workflows\weatherdata.yml) was used to satisfy the above requirements.
 ![weather.py](images\project4.JPG)
 
 7. Test the Workflow Commit and push the workflow to your repository. Check the logs in GitHub to ensure that the weather.sh script runs correctly, that new data is being committed.
 
-- The script was initally run manually to ensure that it ran correctly, and then it was allowed to run away, at 10am each day.
+- The script was initially run manually to ensure that it ran correctly, and then it was allowed to run away, at 10am each day.
 
 **Updates/ Improvements**
 
 ***
 
--However the assigned required us to run the bash script `weather.sh`, previously created in weekly Task 07 and the 'work flow' failed.
+-The assigned required us to run the bash script `weather.sh`, previously created in weekly Task 07 and not a python file, and the 'work flow' also failed when there was a large call to the Met Éireann site, as more students started to automate their scripts.
 
 The amendments made to make the project more effective included:
 
 - Creating a new `weatherdata.yml` file, to call `weather.sh` and not `weather.py`.
-- update the schedule event on cron from:
-  - 10am = '0 10 * * *', to
-  - 9am = '45 9 * * *', to avoid overburdening Met Éireann with the mass requests due to the class all calling for the data at 10am.
+- update the schedule event on 'cron. from:
+  - 10am = `'0 10 * * *'`, to
+  - 9am = `'45 9 * * *'`, to avoid overburdening Met Éireann with the mass requests due to the class all calling for the data at 10am.
 - Updating `weather.sh`, previously created in weekly Task 07 to save the data in the `project` folder, and not the `weather` folder, as required in Task 07.
 -
 
