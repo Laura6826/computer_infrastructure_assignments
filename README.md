@@ -11,7 +11,7 @@ This README file was written using the [GitHub's documentation on READMEs](https
 
   &#x26a0;&#xfe0f; **DISCLAIMER**
 
-  Microsoft Co-Pilot was used to generate ideas of the content of the following notebook. That said, the notebook is mainly my own work, as I had to re-work the code the text in generated to meet my own needs.(*The warning icon was sourced from [Stackoverflow](https://stackoverflow.com/questions/50544499/how-to-make-a-styled-markdown-admonition-box-in-a-github-gist)*)
+  Microsoft Co-Pilot was used to generate ideas of the content of the following notebook. That said, the notebook is mainly my own work, as I had to re-work the code the text in generated to meet my own needs. (*The warning icon was sourced from [Stackoverflow](https://stackoverflow.com/questions/50544499/how-to-make-a-styled-markdown-admonition-box-in-a-github-gist)*)
 
 ## **Table of contents**
 
@@ -34,7 +34,7 @@ This README file was written using the [GitHub's documentation on READMEs](https
 
 ## 1. Introduction
 
-This project was created to fuLfill an assessment requirement of Computer Infrastructure 24-25: 8645, as part of the H.Dip in Science in Data Analytics.
+This project was created to fulfill an assessment requirement of Computer Infrastructure 24-25: 8645, as part of the H.Dip in Science in Data Analytics.
 
 Each week, following a series of lectures, a task was assigned, to demonstrate both learning and additional reading/research on the topics discussed in the lectures.
 
@@ -249,7 +249,7 @@ Task 09 can be viewed in [weather.ipynb](C:\Users\Laura\OneDrive\ATU_DA\24-25\co
 
 ***
 
-## **Project**
+## **Final Project**
 
 ### **Project Instructions**
 
@@ -259,15 +259,16 @@ In this project, you will automate your weather.sh script to run daily and push 
 
 This part of the task could be complete in GitHub Codespaces using the terminal,
 
-![Creating new folders on GitHub Codespaces](images\project2.JPG)
+![Creating new folders on GitHub Codespaces](https://github.com/Laura6826/computer_infrastructure_assignments/blob/main/images/project2.JPG)
 or directly on Visual Studio Code.
 
-![Creating new folders using VS Code](images\project3.JPG)
+![Creating new folders using VS Code](https://github.com/Laura6826/computer_infrastructure_assignments/blob/main/images/project3.JPG)
 
 1. *Run Daily at 10am: Use the schedule event with 'cron' to set the script to run once a day at 10am. Include also the workflow_dispatch event so you can test the workflow.*
 
   - Originally, weather_data.yml, was created within `.github\workflows` to run the script `weather.py` at 10am (originally called `project.py`).
-![prject.py](images\project4.JPG)
+![prject.py](https://github.com/Laura6826/computer_infrastructure_assignments/blob/main/images/project1.jpg
+)
 
   - Once the bash script was complete; we needed to modify to ensure that it could be run by the user.
 
