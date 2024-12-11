@@ -283,7 +283,11 @@ chmod u+x ./weather.sh
 
 7. Test the Workflow Commit and push the workflow to your repository. Check the logs in GitHub to ensure that the weather.sh script runs correctly, that new data is being committed.
 
-- Te script was initally run manually to ensure that it ran correctly, and then it was allowed to run away, at 10am each day.
+- The script was initally run manually to ensure that it ran correctly, and then it was allowed to run away, at 10am each day.
+
+**Updates/ Improvements**
+
+***
 
 -However the assigned required us to run the bash script `weather.sh`, previously created in weekly Task 07 and the 'work flow' failed.
 
