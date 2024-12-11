@@ -308,13 +308,13 @@ The amendments made to make the project more effective included:
 1. The final project can be run from my [GitHub respository](https://github.com/Laura6826/computer_infrastructure_assignments/tree/main).
 2. Ensure you have followed the instruction above including, downloading the recommended libraries/ or running the `requirements.txt' files in a terminal.
 3. Open GitHub Actions, located in the toolbar.
-![GitHub Actions]()
+![GitHub Actions](https://github.com/Laura6826/computer_infrastructure_assignments/blob/main/images/projectactions.JPG)
 
 4. Under the heading 'Actions', select, 'Daily `weather.sh` script execution'
-![executive weather.sh]()
+![executive weather.sh](https://github.com/Laura6826/computer_infrastructure_assignments/blob/main/images/execution.JPG)
 
 5. Once open, you can manually call the script to run by selecting the green button `Run Workflow`, 
-![Run workflow]()
+![Run workflow](https://github.com/Laura6826/computer_infrastructure_assignments/blob/main/images/runworkflow.JPG)
 ,or you can allow the script to run and the prescribed time of 9.45am each day.
 6. You can access/ check that the data has been downloaded at `data\project`, with my repository.
 
