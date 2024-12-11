@@ -251,9 +251,11 @@ Task 09 can be viewed in [weather.ipynb](C:\Users\Laura\OneDrive\ATU_DA\24-25\co
 
 ## **Final Project**
 
+The final project required the `weather.sh` file (created as part of Task 07, to down load the daily, hourly weather file, for Athenry, from Met Éireann), to be automatically run at 10am each day, and for the downloaded data to be automatically pushed and saved to a GitHub repository.
+
 ### **Project Instructions**
 
-In this project, you will automate your weather.sh script to run daily and push the new data to your repository.
+In this project, you will automate your `weather.sh` script to run daily and push the new data to your repository.
 
 1. *Create a GitHub Actions Workflow: In your repository, create a folder called .github/workflows/ (if it doesn't already exist). Inside this folder, create a file called weather-data.yml. This file will define the GitHub Actions workflow.*
 
@@ -300,6 +302,21 @@ The amendments made to make the project more effective included:
   - 10am = `'0 10 * * *'`, to
   - 9am = `'45 9 * * *'`, to avoid overburdening Met Éireann with the mass requests due to the class all calling for the data at 10am.
 - Updating `weather.sh`, previously created in weekly Task 07 to save the data in the `project` folder, and not the `weather` folder, as required in Task 07.
--
+
+#### **How to run the final project**
+
+1. The final project can be run from my [GitHub respository](https://github.com/Laura6826/computer_infrastructure_assignments/tree/main).
+2. Ensure you have followed the instruction above including, downloading the recommended libraries/ or running the `requirements.txt' files in a terminal.
+3. Open GitHub Actions, located in the toolbar.
+![GitHub Actions]()
+
+4. Under the heading 'Actions', select, 'Daily `weather.sh` script execution'
+![executive weather.sh]()
+
+5. Once open, you can manually call the script to run by selecting the green button `Run Workflow`, 
+![Run workflow]()
+,or you can allow the script to run and the prescribed time of 9.45am each day.
+6. You can access/ check that the data has been downloaded at `data\project`, with my repository.
+
 
 ### End
