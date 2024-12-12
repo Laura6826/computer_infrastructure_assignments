@@ -34,7 +34,7 @@ This README file was written using the [GitHub's documentation on READMEs](https
 
 ## 1. Introduction
 
-This project was created to fulfill an assessment requirement of Computer Infrastructure 24-25: 8645, as part of the H.Dip in Science in Data Analytics.
+This project was created to fulfil an assessment requirement of Computer Infrastructure 24-25: 8645, as part of the H.Dip in Science in Data Analytics.
 
 Each week, following a series of lectures, a task was assigned to demonstrate both learning and additional reading/research on the topics discussed in the lectures.
 
@@ -114,7 +114,7 @@ pip install -r requirements.txt
 
 OR
 
-## Open the repository in Github Codespaces,
+## Open the repository in Github Codespaces
 
 - Navigate to your repository on GitHub.
 - Click on the `Code` button and select `Open with Codespaces`.
@@ -142,13 +142,13 @@ I have attached a number of helpful links below, should you wish to extrapolate 
 1. [Matplotlib.py](https://matplotlib.org/)
 1. [Seaborn](https://seaborn.pydata.org/)
 
-Additionally, a number of links are embedded within the code, in areas that i found confusing/difficult, that should help should there be any difficulty.
+Additionally, a number of links are embedded within the code, in areas that I found confusing, that should help should there be any difficulty.
 
 ## 5. How to contribute
 
-As this project was created to fulfill an assessment requirement of the module Computer Infrastructure 24-25, as part of the H.Dip in Science in Data Analytics, no contributions will be allowed, in order to comply with ATU Policy on [Plagiarism](https://www.atu.ie/sites/default/files/2024-02/aqae022-academic-integrity-policy-1.pdf) and the [Student Code of Conduct](https://www.atu.ie/sites/default/files/2022-08/Student%20Code_Final_August_2022.pdf).
+As this project was created to fulfil an assessment requirement of the module Computer Infrastructure 24-25, as part of the H.Dip in Science in Data Analytics, no contributions will be allowed, in order to comply with ATU Policy on [Plagiarism](https://www.atu.ie/sites/default/files/2024-02/aqae022-academic-integrity-policy-1.pdf) and the [Student Code of Conduct](https://www.atu.ie/sites/default/files/2022-08/Student%20Code_Final_August_2022.pdf).
 
-Should you find any errors or have any recommendations , please submit a pull request on Github. or just wish to contact that author, you can do so at <maxwell6826@gmail.com>.
+Should you find any errors or have any recommendations, please submit a pull request on Github. or just wish to contact that author, you can do so at <maxwell6826@gmail.com>.
 
 ***
 
@@ -164,7 +164,7 @@ This is a brief description of the tasks that were to be completed as part of th
 
 ### **Assignment Instructions:**
 
-Using the command line, create a directory (that is, a folder) named data at the root of your repository. Inside data, create two subdirectories: timestamps and weather.
+Using the command line, create a directory named `data` at the root of your repository. Inside `data`, create two subdirectories: `timestamps` and `weather`.
 
 *[Task 08](weather.ipynb) contains a brief report explaining how you completed Tasks 1 to 7.*
 
@@ -172,7 +172,9 @@ Using the command line, create a directory (that is, a folder) named data at the
 
 ### **Assignment Instructions: 02**
 
-Navigate to the data/timestamps directory. Use the date command to output the current date and time, appending the output to a file named now.txt. Make sure to use the >> operator to append (not overwrite) the file. Repeat this step ten times, then use the more command to verify that now.txt has the expected content.
+- Navigate to the `data/timestamps` directory.
+- Use the date command to output the current date and time, appending the output to a file named `now.txt`. Make sure to use the >> operator to append (not overwrite) the file.
+- Repeat this step ten times, then use the more command to verify that `now.txt` has the expected content.
 
 *[Task 08](weather.ipynb) contains a brief report explaining how you completed Tasks 1 to 7.*
 
@@ -182,7 +184,9 @@ Navigate to the data/timestamps directory. Use the date command to output the cu
 
 ### **Assignment Instructions: 03**
 
-Run the date command again, but this time format the output using YYYYmmdd_HHMMSS (e.g., 20261114_130003 for 1:00:03 PM on November 14, 2026). Refer to the date man page (using man date) for more formatting options. (Press q to exit the man page). Append the formatted output to a file named formatted.txt.
+- Run the date command again, but this time format the output using `YYYYmmdd_HHMMSS` (e.g., 20261114_130003 for 1:00:03 PM on November 14, 2026).
+- Refer to the date man page (using `man date`) for more formatting options. (Press q to exit the man page).
+- Append the formatted output to a file named `formatted.txt`.
 
 *[Task 08](weather.ipynb) contains a brief report explaining how you completed Tasks 1 to 7.*
 
@@ -192,7 +196,7 @@ Run the date command again, but this time format the output using YYYYmmdd_HHMMS
 
 ### **Assignment Instructions: 04**
 
-Use the touch command to create an empty file with a name in the YYYYmmdd_HHMMSS.txt format. You can achieve this by embedding your date command in backticks ` into the touch command. You should no longer use redirection (>>) in this step.
+Use the touch command to create an empty file with a name in the `YYYYmmdd_HHMMSS.txt` format. You can achieve this by embedding your date command in backticks ` into the touch command. You should no longer use redirection (>>) in this step.
 
 *[Task 08](weather.ipynb) contains a brief report explaining how you completed Tasks 1 to 7.*
 
@@ -202,7 +206,10 @@ Use the touch command to create an empty file with a name in the YYYYmmdd_HHMMSS
 
 ### **Assignment Instructions: 05**
 
-Change to the data/weather directory. Download the latest weather data for the Athenry weather station from Met Eireann using wget. Use the -O filename option to save the file as weather.json. The data can be found at this URL:
+- Change to the `data/weather` directory.
+- Download the latest weather data for the Athenry weather station from Met Eireann using wget.
+- Use the -O filename option to save the file as `weather.json`.
+- The data can be found at this URL:
 <https://prodapi.metweb.ie/observations/athenry/today>.
 
 *[Task 08](weather.ipynb) contains a brief report explaining how you completed Tasks 1 to 7.*
@@ -213,7 +220,7 @@ Change to the data/weather directory. Download the latest weather data for the A
 
 ### **Assignment Instructions: 06**
 
-Modify the command from Task 5 to save the downloaded file with a timestamped name in the format YYYYmmdd_HHMMSS.json.
+Modify the command from Task 5 to save the downloaded file with a timestamped name in the format `YYYYmmdd_HHMMSS.json`.
 
 *[Task 08](weather.ipynb) contains a brief report explaining how you completed Tasks 1 to 7.*
 
@@ -223,7 +230,9 @@ Modify the command from Task 5 to save the downloaded file with a timestamped na
 
 ### **Assignment Instructions: 07**
 
-Write a bash script called weather.sh in the root of your repository. This script should automate the process from Task 6, saving the weather data to the data/weather directory. Make the script executable and test it by running it.
+- Write a bash script called `weather.sh` in the root of your repository.
+- This script should automate the process from Task 6, saving the weather data to the `data/weather` directory.
+- Make the script executable and test it by running it.
 
 *[Task 08](weather.ipynb)Task 08 contains a brief report explaining how you completed Tasks 1 to 7.*
 
@@ -233,7 +242,9 @@ Write a bash script called weather.sh in the root of your repository. This scrip
 
 ### **Assignment Instructions: 08**
 
-Create a notebook called weather.ipynb at the root of your repository. In this notebook, write a brief report explaining how you completed Tasks 1 to 7. Provide short descriptions of the commands used in each task and explain their role in completing the tasks.
+- Create a notebook called weather.ipynb at the root of your repository.
+- In this notebook, write a brief report explaining how you completed Tasks 1 to 7.
+- Provide short descriptions of the commands used in each task and explain their role in completing the tasks.
 
 Task 08 can be viewed in [weather.ipynb](C:\Users\Laura\OneDrive\ATU_DA\24-25\computer_infrastructure_assignments\weather.ipynb)
 
@@ -243,7 +254,9 @@ Task 08 can be viewed in [weather.ipynb](C:\Users\Laura\OneDrive\ATU_DA\24-25\co
 
 ### **Assignment Instructions: 09**
 
-In your weather.ipynb notebook, use the pandas function read_json() to load in any one of the weather data files you have downloaded with your script. Examine and summarize the data. Use the information provided data.gov.ie to write a short explanation of what the data set contains.
+- In your `weather.ipynb` notebook, use the pandas function `read_json()` to load in any one of the weather data files you have downloaded with your script.
+- Examine and summarize the data.
+- Use the information provided data.gov.ie to write a short explanation of what the data set contains.
 
 Task 09 can be viewed in [weather.ipynb](C:\Users\Laura\OneDrive\ATU_DA\24-25\computer_infrastructure_assignments\weather.ipynb)
 
@@ -283,7 +296,6 @@ In this project, you will automate your `weather.sh` script to run daily and pus
 ,or you can allow the script to run and the prescribed time of 9.45am each day.
 
 6. You can access/ check that the data has been downloaded at `data\project`, with my repository.
-
 
 #### **Updates/ Improvements**
 
