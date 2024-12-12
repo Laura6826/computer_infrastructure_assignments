@@ -283,16 +283,18 @@ In this project, you will automate your `weather.sh` script to run daily and pus
 ,or you can allow the script to run and the prescribed time of 9.45am each day.
 
 6. You can access/ check that the data has been downloaded at `data\project`, with my repository.
+
+
 #### **Updates/ Improvements**
 
 ***
 
--The assigned required us to run the bash script `weather.sh`, previously created in weekly Task 07 and not a modified python file, and,
+- The assigned required us to run the bash script `weather.sh`, previously created in weekly Task 07 and not a modified python file, and,
 - The 'work flow' also failed when there was a large call to the Met Éireann site, as more students started to automate their scripts.
 
 The amendments made to make the project more effective/appliable to the project requirements included:
 
-1. Creating a new `weatherdata.yml` file, to call `weather.sh` and not `weather.py`.
+1. Creating a new `weatherdata.yml` file, to call `weather.sh` (and not `weather.py`).
 
 - The data originally downloaded using the python file can be differentiated from the data downloading using the bash script, as the data was downloaded by both scripts using different file names.
 - Those downloaded with the .py file have a `csv` extension and the file name in the format `20241124_184726.csv`, 
@@ -303,8 +305,6 @@ The amendments made to make the project more effective/appliable to the project 
 - 10am = `'0 10 * * *'`, to
 - 9am = `'45 9 * * *'`, to avoid overburdening Met Éireann with the mass requests due to the class all calling for the data at 10am.
 
-3. Updating `weather.sh`, previously created in weekly Task 07 to save the data in the `project` folder, and not the `weather` folder, as required in Task 07.
-
-
+3. Amend the `weather.sh`, previously created in weekly Task 07 to save the data in the `project` folder, and not the `weather` folder, as required in Task 07.
 
 ### End
