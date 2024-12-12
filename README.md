@@ -11,7 +11,7 @@ This README file was written using the [GitHub's documentation on READMEs](https
 
   &#x26a0;&#xfe0f; **DISCLAIMER**
 
-  Microsoft Co-Pilot was used to generate ideas of the content of the following notebook. That said, the notebook is mainly my own work, as I had to re-work the code the text in generated to meet my own needs. (*The warning icon was sourced from [Stackoverflow](https://stackoverflow.com/questions/50544499/how-to-make-a-styled-markdown-admonition-box-in-a-github-gist)*)
+  Microsoft Co-Pilot was used to generate ideas of the content of the following notebook. That said, the notebook is mainly my own work, as I had to re-work the code the text in generated to meet my own needs (*The warning icon was sourced from [Stackoverflow](https://stackoverflow.com/questions/50544499/how-to-make-a-styled-markdown-admonition-box-in-a-github-gist)*).
 
 ## **Table of contents**
 
@@ -36,7 +36,7 @@ This README file was written using the [GitHub's documentation on READMEs](https
 
 This project was created to fulfill an assessment requirement of Computer Infrastructure 24-25: 8645, as part of the H.Dip in Science in Data Analytics.
 
-Each week, following a series of lectures, a task was assigned, to demonstrate both learning and additional reading/research on the topics discussed in the lectures.
+Each week, following a series of lectures, a task was assigned to demonstrate both learning and additional reading/research on the topics discussed in the lectures.
 
 This repository is collection of my weekly tasks, including some additional guidance and instruction in how to run each task/program.
 
