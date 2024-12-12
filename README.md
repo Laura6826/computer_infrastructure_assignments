@@ -258,50 +258,11 @@ The final project required the `weather.sh` file (created as part of Task 07, to
 In this project, you will automate your `weather.sh` script to run daily and push the new data to your repository.
 
 1. *Create a GitHub Actions Workflow: In your repository, create a folder called .github/workflows/ (if it doesn't already exist). Inside this folder, create a file called weather-data.yml. This file will define the GitHub Actions workflow.*
-
-This part of the task could be complete in GitHub Codespaces using the terminal,
-
-![Creating new folders on GitHub Codespaces](https://github.com/Laura6826/computer_infrastructure_assignments/blob/main/images/project2.JPG)
-or directly on Visual Studio Code.
-
-![Creating new folders using VS Code](https://github.com/Laura6826/computer_infrastructure_assignments/blob/main/images/project3.JPG)
-
 1. *Run Daily at 10am: Use the schedule event with 'cron' to set the script to run once a day at 10am. Include also the workflow_dispatch event so you can test the workflow.*
-
-  - Originally, weather_data.yml, was created within `.github\workflows` to run the script `weather.py` at 10am (originally called `project.py`).
-![project.py](https://github.com/Laura6826/computer_infrastructure_assignments/blob/main/images/project1.jpg)
-
-  - Once the bash script was complete; we needed to modify to ensure that it could be run by the user.
-
-  ```ruby
-  chmod u+x ./weather.sh
-  ```
-
 1. *Use a Linux Virtual Machine In the workflow file, specify that a Ubuntu virtual machine should be used to run the action.*
 1. *Clone the Repository Have the workflow clone your repository.*
 1. *Execute the weather.sh Script Add a step that runs your weather.sh script.*
 1. *Commit and Push Changes Back to the Repository Finally, configure the workflow to commit the new weather data and push those changes back to your repository.*
-
--The [following script](.github\workflows\weatherdata.yml) was used to satisfy the above requirements.
-![weather.py](https://github.com/Laura6826/computer_infrastructure_assignments/blob/main/images/project4.JPG)
-
-7. Test the Workflow Commit and push the workflow to your repository. Check the logs in GitHub to ensure that the weather.sh script runs correctly, that new data is being committed.
-
-- The script was initially run manually to ensure that it ran correctly, and then it was allowed to run away, at 10am each day.
-
-#### **Updates/ Improvements**
-
-***
-
--The assigned required us to run the bash script `weather.sh`, previously created in weekly Task 07 and not a python file, and the 'work flow' also failed when there was a large call to the Met Éireann site, as more students started to automate their scripts.
-
-The amendments made to make the project more effective included:
-
-- Creating a new `weatherdata.yml` file, to call `weather.sh` and not `weather.py`.
-- update the schedule event on 'cron. from:
-  - 10am = `'0 10 * * *'`, to
-  - 9am = `'45 9 * * *'`, to avoid overburdening Met Éireann with the mass requests due to the class all calling for the data at 10am.
-- Updating `weather.sh`, previously created in weekly Task 07 to save the data in the `project` folder, and not the `weather` folder, as required in Task 07.
 
 #### **How to run the final project**
 
@@ -322,5 +283,28 @@ The amendments made to make the project more effective included:
 ,or you can allow the script to run and the prescribed time of 9.45am each day.
 
 6. You can access/ check that the data has been downloaded at `data\project`, with my repository.
+#### **Updates/ Improvements**
+
+***
+
+-The assigned required us to run the bash script `weather.sh`, previously created in weekly Task 07 and not a modified python file, and,
+- The 'work flow' also failed when there was a large call to the Met Éireann site, as more students started to automate their scripts.
+
+The amendments made to make the project more effective/appliable to the project requirements included:
+
+1. Creating a new `weatherdata.yml` file, to call `weather.sh` and not `weather.py`.
+
+- The data originally downloaded using the python file can be differentiated from the data downloading using the bash script, as the data was downloaded by both scripts using different file names.
+- Those downloaded with the .py file have a `csv` extension and the file name in the format `20241124_184726.csv`, 
+- but the data downloaded via the bash script has the file extention `.json` and was formatted as follows `20241211_120357_athenry.json`.
+
+2. Update the schedule event on 'cron. from:
+
+- 10am = `'0 10 * * *'`, to
+- 9am = `'45 9 * * *'`, to avoid overburdening Met Éireann with the mass requests due to the class all calling for the data at 10am.
+
+3. Updating `weather.sh`, previously created in weekly Task 07 to save the data in the `project` folder, and not the `weather` folder, as required in Task 07.
+
+
 
 ### End
